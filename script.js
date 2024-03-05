@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const storiesContainer = document.getElementById("stories-container");
 
-    // Ambil data cerita dari URL yang disediakan
+    // Ambil data cerita dari URL
     fetch("https://raw.githubusercontent.com/antheiz/mops/master/data.json")
         .then(response => response.json())
         .then(data => {
