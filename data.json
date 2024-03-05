@@ -30,12 +30,12 @@
           "type": "dialogue",
           "speaker": "Ibu guru",
           "message": "Iyo itu untuk lingkaran besar memang 360 derajat, kalo lingkaran yang kecil-kecil macam begitu tuuh... 260 saja su cukup.. 😁"
-        },
+        }
       ]
     },
     {
       "title": "Tidur di Lantai",
-      "description": "Cerita antara anak dan de punya om yang sedang mabuk",
+      "description": "Cerita antara anak dan de punya om yang sedang mabuk.",
       "scenes": [
         {
           "type": "description",
