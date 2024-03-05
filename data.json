@@ -1,0 +1,57 @@
+{
+  "stories": [
+    {
+      "title": "Pelajaran Matematika",
+      "description": "Sebuah cerita tentang pembelajaran matematika di kelas.",
+      "scenes": [
+        {
+          "type": "description",
+          "content": "Ini lagi pelajaran matematika tentang lingkaran. Ibu guru gambar lingkaran di papan tulis."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Ibu guru",
+          "message": "Anak-anak ini adalah lingkaran 260 derajat."
+        },
+        {
+          "type": "description",
+          "content": "Langsung obed de protes.."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Obed",
+          "message": "Ibu.. itu salah, lingkaran itu 360 derajat, bukan 260 bu guru."
+        },
+        {
+          "type": "description",
+          "content": "Ibu guru tiba-tiba sadar, oh iyo betul juga eee, tapi karna tidak mau kalah malu jadi ibu de jawab"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Ibu guru",
+          "message": "Iyo itu untuk lingkaran besar memang 360 derajat, kalo lingkaran yang kecil-kecil macam begitu tuuh... 260 saja su cukup.. 😁"
+        },
+      ]
+    },
+    {
+      "title": "Tidur di Lantai",
+      "description": "Cerita antara anak dan de punya om yang sedang mabuk"
+      "scenes": [
+        {
+          "type": "description",
+          "content": "Om satu de mabuk sampe tidur di atas lantai, begini de pu keponakan kasih bangun dia."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Keponakan",
+          "message": "Om bangun.. jangan tidur di lantai dingin.. nanti kena paru-paru basah!!"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Om balas",
+          "message": "Trapapa anak.. nanti om lap 😆"
+        },
+      ]
+    }
+  ]
+}
