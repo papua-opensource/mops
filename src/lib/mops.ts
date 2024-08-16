@@ -4,6 +4,8 @@ import type { Story } from "../types/index"
 export class StoryService {
     private endpoint = 'https://raw.githubusercontent.com/papua-opensource/mops/dataset/data.json';
     private stories: Story[] = [];
+    private dailyStory: Story | null = null;
+    private lastUpdated: Date | null = null;
 
     constructor() {
         this.fetchStories();
@@ -36,29 +38,5 @@ export class StoryService {
 
         const randomIndex = Math.floor(Math.random() * this.stories.length);
         return this.stories[randomIndex].slug;
-    }
-
-    // Schedule a random story each night at midnight
-    scheduleRandomStoryAtMidnight(callback: (slug: string | undefined) => void): void {
-        const now = new Date();
-        const midnight = new Date(
-            now.getFullYear(),
-            now.getMonth(),
-            now.getDate() + 1,
-            0,
-            0,
-            0,
-            0
-        );
-
-        const timeUntilMidnight = midnight.getTime() - now.getTime();
-
-        setTimeout(() => {
-            const randomSlug = this.getRandomSlug();
-            callback(randomSlug);
-
-            // Schedule the next midnight callback
-            this.scheduleRandomStoryAtMidnight(callback);
-        }, timeUntilMidnight);
     }
 }
