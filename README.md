@@ -1,5 +1,5 @@
 # mops
 Kumpulan Cerita MOP dari berbagai sumber, bisa diambil via REST API.
 
-## Demo
-https://mopz.pages.dev
+### Dataset
+https://raw.githubusercontent.com/papua-opensource/mops/dataset/data.json
