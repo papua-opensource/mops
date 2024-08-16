@@ -2,6 +2,7 @@
   "stories": [
     {
       "title": "Pelajaran Matematika",
+      "slug": "pelajaran-matematika",
       "description": "Sebuah cerita tentang pembelajaran matematika di kelas.",
       "scenes": [
         {
@@ -35,6 +36,7 @@
     },
     {
       "title": "Tidur di Lantai",
+      "slug": "tidur-di-lantai",
       "description": "Cerita antara anak dan de punya om yang sedang mabuk.",
       "scenes": [
         {
@@ -54,7 +56,8 @@
       ]
     },
     {
-      "title": "Kuli Bangunan dan Ibu guru yang lagi Mengajar",
+      "title": "Kuli Bangunan dan Ibu Guru yang Lagi Mengajar",
+      "slug": "kuli-bangunan-dan-ibu-guru-yang-lagi-mengajar",
       "description": "Ibu guru lagi mengajar, baru pas di ruangan sebelah itu lagi ada renovasi ka perbaikan bangunan ka itu jadi tukang-tukang dong juga ada kerja di sebelah.",
       "scenes": [
         {
