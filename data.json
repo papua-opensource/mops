@@ -7,7 +7,7 @@
       "scenes": [
         {
           "type": "description",
-          "content": "Sebuah cerita tentang pembelajaran matematika di kelas. Ini lagi pelajaran matematika tentang lingkaran. Ibu guru gambar lingkaran di papan tulis."
+          "content": "Ini lagi pelajaran matematika tentang lingkaran. Ibu guru gambar lingkaran di papan tulis."
         },
         {
           "type": "dialogue",
@@ -41,7 +41,7 @@
       "scenes": [
         {
           "type": "description",
-          "content": "Cerita antara anak dan de punya om yang sedang mabuk. Om satu de mabuk sampe tidur di atas lantai, begini de pu keponakan kasih bangun dia."
+          "content": "Om satu de mabuk sampe tidur di atas lantai, begini de pu keponakan kasih bangun dia."
         },
         {
           "type": "dialogue",
