@@ -8,11 +8,8 @@ const storyService = new StoryService();
 // Tunggu hingga cerita diambil
 await storyService.fetchStories();
 
-const allStories = storyService.getAllStories();
-const specificStory = storyService.getStoryBySlug('pelajaran-matematika');
 const randomSlug = storyService.getRandomSlug();
 const randomStory = randomSlug ? storyService.getStoryBySlug(randomSlug) : undefined;
-console.log(randomStory)
 ---
 
 <MainLayout title="Welcome to Mops.">	
