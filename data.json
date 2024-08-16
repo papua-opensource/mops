@@ -3,11 +3,10 @@
     {
       "title": "Pelajaran Matematika",
       "slug": "pelajaran-matematika",
-      "description": "Sebuah cerita tentang pembelajaran matematika di kelas.",
       "scenes": [
         {
           "type": "description",
-          "content": "Ini lagi pelajaran matematika tentang lingkaran. Ibu guru gambar lingkaran di papan tulis."
+          "content": "Sebuah cerita tentang pembelajaran matematika di kelas. Ini lagi pelajaran matematika tentang lingkaran. Ibu guru gambar lingkaran di papan tulis."
         },
         {
           "type": "dialogue",
@@ -25,7 +24,7 @@
         },
         {
           "type": "description",
-          "content": "Ibu guru tiba-tiba sadar, oh iyo betul juga eee, tapi karna tidak mau kalah malu jadi ibu de jawab"
+          "content": "Ibu guru tiba-tiba sadar, oh iyo betul juga eee, tapi karna tidak mau kalah malu jadi ibu de jawab."
         },
         {
           "type": "dialogue",
@@ -37,11 +36,10 @@
     {
       "title": "Tidur di Lantai",
       "slug": "tidur-di-lantai",
-      "description": "Cerita antara anak dan de punya om yang sedang mabuk.",
       "scenes": [
         {
           "type": "description",
-          "content": "Om satu de mabuk sampe tidur di atas lantai, begini de pu keponakan kasih bangun dia."
+          "content": "Cerita antara anak dan de punya om yang sedang mabuk. Om satu de mabuk sampe tidur di atas lantai, begini de pu keponakan kasih bangun dia."
         },
         {
           "type": "dialogue",
@@ -58,11 +56,10 @@
     {
       "title": "Kuli Bangunan dan Ibu Guru yang Lagi Mengajar",
       "slug": "kuli-bangunan-dan-ibu-guru-yang-lagi-mengajar",
-      "description": "Ibu guru lagi mengajar, baru pas di ruangan sebelah itu lagi ada renovasi ka perbaikan bangunan ka itu jadi tukang-tukang dong juga ada kerja di sebelah.",
       "scenes": [
         {
           "type": "description",
-          "content": "Ibu guru mengajar sampe de bilang:"
+          "content": "Ibu guru lagi mengajar, baru pas di ruangan sebelah itu lagi ada renovasi ka perbaikan bangunan ka itu jadi tukang-tukang dong juga ada kerja di sebelah. Ibu guru mengajar sampe de bilang"
         },
         {
           "type": "dialogue",
