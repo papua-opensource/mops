@@ -2,7 +2,7 @@ import type { Story } from "../types/index"
 
 
 export class StoryService {
-    private endpoint = 'https://raw.githubusercontent.com/papua-opensource/mops/master/data.json';
+    private endpoint = 'https://raw.githubusercontent.com/papua-opensource/mops/dataset/data.json';
     private stories: Story[] = [];
 
     constructor() {
