@@ -10,9 +10,13 @@ await storyService.fetchStories();
 
 const randomSlug = storyService.getRandomSlug();
 const randomStory = randomSlug ? storyService.getStoryBySlug(randomSlug) : undefined;
+
+    storyService.scheduleRandomStoryAtMidnight((slug) => {
+        console.log('Random story slug selected at midnight:', slug);
+    });
 ---
 
-<MainLayout title="Welcome to Mops.">	
+<MainLayout title="Mops">	
 	<div class="max-w-3xl px-4 pt-6 lg:pt-10 pb-12 sm:px-6 lg:px-8 mx-auto">
 		<div class="max-w-2xl">  		
 			<!-- Content -->
