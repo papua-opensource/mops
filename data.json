@@ -125,6 +125,41 @@
           "content": "Tapi karna su terlanjur isi, sudah pace Yaklep makan nasi deng es Cendol..."
         }
       ]
+    },
+    {
+      "id": 5,
+      "title": "Bawa Kolekte",
+      "slug": "bawa-kolekte",
+      "description": "Cerita lucu tentang kesalahpahaman antara pendeta dan Ibu Yakomina saat ibadah persembahan.",
+      "scenes": [
+        {
+          "type": "description",
+          "content": "Satu kali ada ibadah pas mau kumpul persembahan pendeta panggil ibu yakomina"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Pendeta",
+          "message": "Bu Yakomina, tolong bawakan kolekte"
+        },
+        {
+          "type": "description",
+          "content": "Ibu dia berdiri jln menuju ke depan baru De bilang sama pendeta"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Ibu Yakomina",
+          "message": "Bapa lain kali jgn panggil ibu yakomina, tapi panggil saja ibu mina,"
+        },
+        {
+          "type": "description",
+          "content": "Pendeta langsung jawab"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Pendeta",
+          "message": "eeee yakomina kapan ko dengar tuhan panggil simon petrus itu SIMPET..!"
+        }
+      ]
     }
   ]
 }
