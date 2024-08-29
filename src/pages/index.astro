@@ -17,14 +17,15 @@ let storedSlug = Astro.cookies.get('dailyStorySlug')?.value;
 
 // Cek apakah ini hari baru atau tidak ada slug yang tersimpan
 if (storedDate !== today || !storedSlug) {
-    // Jika setelah jam 9 pagi, ambil cerita acak baru
+    // Jika setelah jam 9 pagi, ambil cerita berikutnya dalam urutan
     if (now.getHours() >= 9) {
-        storedSlug = storyService.getRandomSlug();
+        dailyStory = storyService.getNextStory();
+        storedSlug = dailyStory?.slug;
         Astro.cookies.set('dailyStoryDate', today, { path: '/' });
         Astro.cookies.set('dailyStorySlug', storedSlug || '', { path: '/' });
     } else if (!storedSlug) {
-        // Jika sebelum jam 9 pagi dan tidak ada slug tersimpan, ambil yang acak
-        storedSlug = storyService.getRandomSlug();
+        // Jika sebelum jam 9 pagi dan tidak ada slug tersimpan, gunakan cerita saat ini
+        storedSlug = storyService.getCurrentStorySlug();
         Astro.cookies.set('dailyStorySlug', storedSlug || '', { path: '/' });
     }
     // Jika sebelum jam 9 pagi dan ada slug tersimpan, gunakan yang tersimpan

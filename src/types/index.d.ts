@@ -7,6 +7,7 @@ type Scene = {
 }
 
 export type Story = {
+    id: number;
     title: string;
     slug: string;
     description: string;
