@@ -82,6 +82,49 @@
           "message": "Iyo,,,habis guru honor dong pu gaji besar jadi... 😂"
         }
       ]
+    },
+    {
+      "id": 4,
+      "title": "Makan di Acara Nikah",
+      "slug": "makan-di-acara-nikah",
+      "description": "Cerita lucu tentang Yaklep yang salah paham saat makan di acara pernikahan.",
+      "scenes": [
+        {
+          "type": "description",
+          "content": "Suatu hari Yaklep ikut acara nikah, tapi de su lapar skali."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Yaklep",
+          "message": "Sebentar jam makan ni, sa timba makanan dari ujung sampe ujung"
+        },
+        {
+          "type": "description",
+          "content": "Pas tiba jam makan, langsung yaklep berdiri ambil piring dan mulai timba nasi di piring dan jalan isi semua lauk yang tersedia di atas meja. Pas sampe diujung, pace timba es cendol lagi isi di nasi."
+        },
+        {
+          "type": "description",
+          "content": "Jadi de pu teman dari blakang kore dia baru bilang"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Teman",
+          "message": "Pace. Itu es cendol"
+        },
+        {
+          "type": "description",
+          "content": "Jadi yaklep kaget baru de blg ."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Yaklep",
+          "message": "Yeh.. sa kira Sup kah"
+        },
+        {
+          "type": "description",
+          "content": "Tapi karna su terlanjur isi, sudah pace Yaklep makan nasi deng es Cendol..."
+        }
+      ]
     }
   ]
 }
