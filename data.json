@@ -1,6 +1,7 @@
 {
   "stories": [
     {
+      "id": 1,
       "title": "Pelajaran Matematika",
       "slug": "pelajaran-matematika",
       "description": "Sebuah cerita tentang pembelajaran matematika di kelas.",
@@ -35,6 +36,7 @@
       ]
     },
     {
+      "id": 2,
       "title": "Tidur di Lantai",
       "slug": "tidur-di-lantai",
       "description": "Sebuah cerita antara anak dan de punya om yang sedang mabuk.",
@@ -56,6 +58,7 @@
       ]
     },
     {
+      "id": 3,
       "title": "Kuli Bangunan di Sekolah",
       "slug": "kuli-bangunan-di-sekolah",
       "description": "Sebuah cerita tentang Mas Tukang yg dapa singgung di Sekolah",
