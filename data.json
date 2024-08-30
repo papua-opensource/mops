@@ -5,6 +5,7 @@
       "title": "Pelajaran Matematika",
       "slug": "pelajaran-matematika",
       "description": "Sebuah cerita tentang pembelajaran matematika di kelas.",
+      "created_at": "2024-08-30",
       "scenes": [
         {
           "type": "description",
@@ -40,6 +41,7 @@
       "title": "Tidur di Lantai",
       "slug": "tidur-di-lantai",
       "description": "Sebuah cerita antara anak dan de punya om yang sedang mabuk.",
+      "created_at": "2024-08-31",
       "scenes": [
         {
           "type": "description",
@@ -62,6 +64,7 @@
       "title": "Kuli Bangunan di Sekolah",
       "slug": "kuli-bangunan-di-sekolah",
       "description": "Sebuah cerita tentang Mas Tukang yg dapa singgung di Sekolah",
+      "created_at": "2024-09-01",
       "scenes": [
         {
           "type": "description",
@@ -88,6 +91,7 @@
       "title": "Makan di Acara Nikah",
       "slug": "makan-di-acara-nikah",
       "description": "Cerita lucu tentang Yaklep yang salah paham saat makan di acara pernikahan.",
+      "created_at": "2024-09-02",
       "scenes": [
         {
           "type": "description",
@@ -131,6 +135,7 @@
       "title": "Bawa Kolekte",
       "slug": "bawa-kolekte",
       "description": "Cerita lucu tentang kesalahpahaman antara pendeta dan Ibu Yakomina saat ibadah.",
+      "created_at": "2024-09-03",
       "scenes": [
         {
           "type": "description",
